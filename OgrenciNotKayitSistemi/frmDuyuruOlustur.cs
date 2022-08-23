@@ -65,21 +65,6 @@ namespace OgrenciNotKayitSistemi
                 MessageBox.Show("Duyuru Silindi ", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 Listele();
             }
-            //try
-            //{
-
-            //    SqlCommand komut = new SqlCommand("Delete from Duyurular where ID=@p1", bgl.baglanti());
-            //    komut.Parameters.AddWithValue("@p1", id);
-            //    MessageBox.Show("Duyuru Silindi ", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            //    komut.ExecuteNonQuery();
-            //    bgl.baglanti().Close();
-            //    Listele();
-            //}
-            //catch (Exception hata)
-            //{
-
-            //    MessageBox.Show("HATA: " + hata);
-            //}
 
         }
 
